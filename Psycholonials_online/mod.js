@@ -2,7 +2,7 @@ module.exports = {
   title: "Psycholonials (online)",
   author: "Gio",
   summary: "LP Psycholonials MSPFA",
-  version: 1.0,
+  version: 1.1,
 
   edit: true,
 
