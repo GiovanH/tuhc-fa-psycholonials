@@ -3,15 +3,10 @@
 .SECONDEXPANSION:
 .SUFFIXES:
 
-PYTHON = py -3
-
-STORY_NAME = Psycholonials
-STORY_ID = 42998
-
+PYTHON=py -3
 
 .PHONY: default
 default: mspfa-online mspfa-full
-
 
 define postprocess
 sed -i $(1)/story.yaml -e \
@@ -22,8 +17,12 @@ endef
 mspfa-full:
 	$(PYTHON) $(TUHC_DIR)/tools/mspfa/mspfa.py $(STORY_ID)
 	$(call postprocess,"$(STORY_NAME)")
+	env MOD_TITLE="$(STORY_NAME)" \
+	  j2 mod.js.j2 --print > "$(STORY_NAME)/mod.js"
 
 .PHONY: mspfa-online
 mspfa-online:
 	$(PYTHON) $(TUHC_DIR)/tools/mspfa/mspfa.py $(STORY_ID) --online
 	$(call postprocess,"$(STORY_NAME)_online")
+	env MOD_TITLE="$(STORY_NAME) (online)" \
+	  j2 mod.js.j2 --print > "$(STORY_NAME)_online/mod.js"

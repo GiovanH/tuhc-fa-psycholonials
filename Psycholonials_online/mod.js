@@ -1,6 +1,8 @@
 module.exports = {
   title: "Psycholonials (online)",
-  summary: "MSPFA",
+  author: "Gio",
+  summary: "LP Psycholonials MSPFA",
+  version: 1.0,
 
   edit: true,
 
@@ -19,3 +21,4 @@ module.exports = {
     }
   }
 }
+
