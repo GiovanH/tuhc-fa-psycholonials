@@ -1,11 +1,13 @@
 module.exports = {
-  title: "Psycholonials (online)",
-  summary: "MSPFA",
+  title: "None",
+  author: "Gio",
+  summary: "LP Psycholonials MSPFA",
+  version: 1.0,
 
   edit: true,
 
   trees: {
-    './': 'assets://mspfa/Psycholonials_online/',
+    './': 'assets://mspfa/Psycholonials (online)_online/',
   },
   async asyncComputed(api) {
     const story = await api.readYamlAsync("./story.yaml")
@@ -14,8 +16,9 @@ module.exports = {
         {body: await api.readFileAsync("./adventure.scss")}
       ],
       edit(archive){
-        archive.mspfa['Psycholonials_online'] = story
+        archive.mspfa['Psycholonials (online)_online'] = story
       }
     }
   }
 }
+
