@@ -10,13 +10,20 @@ jobs:
     steps:
     - uses: actions/checkout@master
 
-    - name: Load .env file
+    - name: Load env file
       uses: aarcangeli/load-dotenv@v1.0.0
       with:
         filenames: |
-          .env
+          env
         quiet: false
         if-file-not-found: error
+
+    - name: Archive Full
+      uses: thedoctor0/zip-release@0.7.5
+      with:
+        type: 'zip'
+        path: '${{ env.STORY_NAME }}/'
+        filename: '${{ env.STORY_NAME }}_${{ env.MOD_VERSION }}.zip'
 
     - name: Archive Online
       uses: thedoctor0/zip-release@0.7.5
@@ -28,5 +35,5 @@ jobs:
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "${{ env.STORY_NAME }}_online_${{ env.MOD_VERSION }}.zip"
+        artifacts: "${{ env.STORY_NAME }}_online_${{ env.MOD_VERSION }}.zip,${{ env.STORY_NAME }}_${{ env.MOD_VERSION }}.zip"
         tag: "${{ env.MOD_VERSION }}"

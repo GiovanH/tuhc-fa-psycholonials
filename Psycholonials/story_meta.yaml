@@ -1,0 +1,106 @@
+"i": 42998
+"d": 1630631089503
+"u": 1630631132044
+"c": "109988672460303183823"
+"n": "Psycholonials"
+"r": |-
+  Here's my Psycholonials Let's Play with commentary I did back in July, for the game's one year anniversary. Comes with screenshots and a transcript, so you can follow along.
+
+  My longer posts are marked as "Bonus Content", and there's routing so you can skip that if you want.
+"h": 3
+"t":
+- "notmine"
+- "nsfw"
+- "nonmspa"
+"a": "The Silence Mill"
+"w": "https://www.thesilencemill.com/"
+"o": "assets://mspfa/Psycholonials/img/thumbnail.jpg"
+"q": ""
+"x": ""
+"b": 1
+"m": "Next."
+"editors":
+- "i": "109988672460303183823"
+  "d": 1318964600000
+  "n": "GiovanH"
+  "v": 1
+  "h": 0
+  "w": "https://im.giovanh.com"
+  "r": ""
+  "o": "https://mspfa.com/images/loading.gif"
+  "g": {}
+  "a": 3
+  "s":
+    "t": 0
+    "p": 1
+    "k":
+      "p": 37
+      "n": 39
+      "s": 32
+    "s": 109
+    "a4": true
+    "a3": true
+  "u": 1717742042467
+  "z": "1304"
+"whole_css": |-
+  footer .mspfalogo {
+      background-image: url(https://file.garden/YOVpTKX47HhECOuA/mspfa_bannerside.png);
+  }
+
+  /*div#content {
+      width: 600px;
+      padding: 0 75px;
+  }*/
+
+  div#content * { max-width: 100%; }
+
+  div#content img.major, 
+  div#content video.major, 
+  div#content iframe.major {
+      margin: 0 -200px;
+      max-width: 900px;
+  }
+
+  iframe {
+      width: 900px;
+      height: 500px;
+  }
+
+  div#content blockquote {
+      margin: 0;
+      padding: 0 1em;
+  }
+
+  img[src$="typing.png"],
+  img[src$="raised-fist.png"],
+  img[src$="sweat-droplets.png"],
+  blockquote span img { height: 1em; }
+
+  div#content blockquote, table.container.alt2 blockquote {
+      border: 4px solid #323232;
+      background: black;
+      color: white;
+      font-family: "Source Code Pro","Courier New",monospace;
+      font-weight: bold;
+      font-size: 16px;
+
+      max-width: 42em;
+      margin: auto;
+      text-align: left;
+  }
+
+  /* Darkening */
+  #main { background-color: #000; }
+  body { 
+      background-color: #101010;
+      color: #EEE;
+  }
+  #slide { background-color: #101010; }
+  .mspfalogo { 
+      border-right: #323232;
+      background-color: #101010;
+  }
+  #info > span > .spoiler.open { background-color: #101010; }
+  a { color: cornflowerblue; }
+  a:visited { color: mediumpurple; }
+  a:active, a:target, a:focus { color: indianred; }

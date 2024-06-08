@@ -1,0 +1,8 @@
+TUHC_DIR="L:/Archive/Homestuck/TUHC/unofficial-homestuck-collection/"
+
+export STORY_NAME=Psycholonials
+export STORY_ID=42998
+
+export MOD_SUMMARY=LP Psycholonials MSPFA
+export MOD_AUTHOR=Gio
+export MOD_VERSION=1.1
