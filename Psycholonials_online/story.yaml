@@ -25,11 +25,11 @@
   "b": |-
     Psycholonials is an absolutely [i]bonkers[/i] game by Andrew Hussie. 
 
-    Based on what I heard I thought Psycholonials would be interesting to react to (and boy was I right!) so I did a blind <span class="caps">LP</span> with commentary. In general, I think the music and art are good, but the story itself has… some issues. Interesting ones though, at least!
+    Based on what I heard I thought Psycholonials would be interesting to react to (and boy was I right!) so I did a blind <span class="caps">LP</span> with commentary. In general, I think the music and art are good, but the story itself has… some issues. Interesting ones though, at least! Definitely a fun time.
 
     The captions and comments throughout the rest of this are a mixture of notes from my original blind playthrough and postcommentary to add details or references where relevant. 
 
-    I know, I know, there are dozens of Psycholonials playthroughs on YouTube already, but I still wanted to wait until the anniversary to give everyone who wanted to buy the game a chance to. But those aren’t accessible text, nor is the game, so this still seemed like a worthwhile exercise. [url=https://www.psycholonials.com/faq]For anybody worried about copyright, don’t be: according to the game’s <span class="caps">FAQ</span>, making an <span class="caps">LP</span> is actually explicitly encouraged.[/url]
+    I know, there are dozens of Psycholonials playthroughs on YouTube already, but I still wanted to wait until the anniversary to give everyone who wanted to buy the game a chance to. But those aren’t accessible text, nor is the game, so this still seemed like a worthwhile exercise. [url=https://www.psycholonials.com/faq]For anybody worried about copyright, don’t be: according to the game’s <span class="caps">FAQ</span>, making an <span class="caps">LP</span> is actually explicitly encouraged.[/url]
 
     <span class="caps">N.B.</span> This was originally written in August of 2021, before [url=https://blog.giovanh.com/blog/2021/11/11/polygons-life-after-homestuck-thread/]Ana Diaz’s Interview[/url]
 
@@ -57,7 +57,7 @@
   "b": |-
     <video alt="Chapter 1: The Summer That Never Was" controls="true" type="video/webm" src="https://file.garden/YOVpTKX47HhECOuA/psycholonials/posts/lp-psycholonials-chapter-1-side-a/VideoClip/ch1start.webm"></video>
 
-    That’s a video! It’s 2021 so your browser should tell you that without my needing an [S] tag though
+    That’s a video! It’s 2021 so your browser should tell you that without my needing an [S] in the page title.
 
     <a href="https://bandcamp.com/EmbeddedPlayer/album=4103826588/size=small/bgcol=ffffff/linkcol=0687f5/track=1675922787/transparent=true" target="$(target)s">Music: 'Summer That Never Was'</a>
   "n":
@@ -174,9 +174,9 @@
     Again, it could be certain types of content you’ve consumed in your past which resulted in this philosophy, but you can’t be sure. All you can do is refresh your memory on your various interests to reaffirm who you are to yourself, along with any imaginary voyeurs who have inexplicably decided to tune into your underwhelming morning ritual.
 
     </blockquote>
-    The format of this game is essentially this. A visual novel, but with drawn panels instead of sprites, and with powerpoint transitions between them. You can use the back arrow in the navigation to go back to the previous panel, but there’s no history view.
+    So this is the format of the game. It’s a visual novel, but with drawn panels instead of sprites, and with powerpoint transitions between them. You can use the back arrow in the navigation to go back to the previous panel, but there’s no history view.
 
-    I have no idea what resolution the game is supposed to be run at. There’s no indication, or any graphical options. Internally the panels are a ludicrous 2048 pixels wide, although that seem to be after being incorrectly imported to unity — more on that at the end.
+    I’ve spent some time trying to figure it out but I still have no idea what resolution the game is supposed to be run at. There’s no indication of a preset, or any graphical options. Internally the panels are a ludicrous 2048 pixels wide, although that seem to be after being incorrectly imported to Unity — more on that at the end.
   "n":
   - 11
   "i": 10
@@ -316,7 +316,9 @@
 
     [i]Image translation: The Jubilite Manifesto[/i]
 
-    Oh look, it’s An Artifact. I bet we won’t get a peek inside that for a good while. “Jubilite” of course is a play on “jubilant” (joyful) and “-ite” (members associated with a system or doctrine). So, you know. The clown stuff.
+    Oh look, it’s An Artifact. I bet we won’t get a peek inside that for a good while. 
+
+    <span class="dquo">“</span>Jubilite” of course is a play on “jubilant” (joyful) and “-ite” (members associated with a system or doctrine). So, you know. The clown stuff.
   "n":
   - 21
   "i": 20
@@ -1108,7 +1110,7 @@
   "b": |-
     Psycholonials is written in Unity, apparently, using middleware called Naninovel. That surprises me, because so far everything seems like it could have been written in something like Ren’py or game maker. Unity seems like overkill for something as light as this, and ren’py is a solid <span class="caps">VN</span> engine that Andrew is already familiar with, having produced two full ren’py games already. 
 
-    The various animations seem to be flash, but they’re rendered as videos and just played as webms in-engine. 
+    The various animations seem to have been originally written in flash, but they’re rendered as videos and just played as webms in-engine. 
 
     I get very distracted playing this game because the pixels are so wrong. All these scaled pixel art assets have anti-aliasing done on them, meaning the edges are at once blocky and blurry. It honestly gives me eye strain looking at it. I ended up running the game in a very small window for the <span class="caps">LP</span>, which helped a little. 
 
@@ -2936,7 +2938,7 @@
 
     At about that point in the paragraph, I started writing the sentence “It’s like Clark Powell’s megalovania” but then I died of a heart attack and thus could not finish that thought.
 
-    As of the Psycholonials album release, those album has been deleted completely from Powell’s bandcamp page. Clark discussed a “cleanup” on twitter before the Psycholonials release, but has since deleted the tweet.
+    As of the Psycholonials album release, those albums were deleted completely from Powell’s bandcamp page. Clark discussed a “cleanup” on twitter before the Psycholonials release, but has since deleted the tweet.
 
     However, since then (approximately November 2021) Clark has [url=https://clarkpowell.bandcamp.com/]re-listed his albums[/url].
   "n":
@@ -6221,7 +6223,7 @@
   "b": |-
     zhen you idiot, you’re a billionaire. there are so many things you could be doing that aren’t this. i know I’m supposed to say this girl needs therapy but maybe therapy isn’t for you. maybe just go to prison
 
-    It’s interesting how this story revolves around this political ideology that the player knows so little directly about. It’s defined in a manifesto the player has not been shown. 
+    It’s interesting how this story revolves around this political ideology that the player knows so little directly about. It’s defined in a manifesto that was published in-universe, but which the player has not been shown. 
 
     The ideology itself seems to be “society is bad, do whatever crimes you want, I was mad anyway.” It’s almost South Park-esque in how much it romanticises applied apathy and the pursuit of… what? Money, followers? A bunch of instrumental goods that just sit in a hoard and aren’t being used for [i]anything[/i], good [i]or[/i] bad. And with how willing she is to rope other people in and casually destroy their lives, it’s obvious there’s no room here for any actual respect towards others. Zhen says she has these long-term goals, but if she did she wouldn’t be taking these absurd, suicidal risks. 
 
@@ -6241,8 +6243,8 @@
   "i": 300
 - "d": 1630631259630
   "c": "Chapter 5: Stuck Pig"
-  "b": "<video alt=\"Chapter 5: Stuck Pig\" controls=\"true\" type=\"video/webm\"\
-    \ src=\"https://file.garden/YOVpTKX47HhECOuA/psycholonials/posts/lp-psycholonials-chapter-5-side-a/VideoClip/ch5start.webm\"\
+  "b": "<video alt=\"Chapter 5: Stuck Pig\" controls=\"true\" type=\"video/webm\"
+    src=\"https://file.garden/YOVpTKX47HhECOuA/psycholonials/posts/lp-psycholonials-chapter-5-side-a/VideoClip/ch5start.webm\"\
     ></video>"
   "n":
   - 302
@@ -7597,7 +7599,7 @@
   "b": |-
     So there are a lot of specific historical events from 2020 being referenced here. Obviously Covid, but also the mass protests against police brutality following the murder of George Floyd, and specifically the occupation of Seattle dubbed the Capitol Hill Autonomous Zone (<span class="caps">CHAZ</span>) in June. The idea, basically, was to cut off police presence in the area entirely, and show that the community could support itself and thrive without a militant police presence.
 
-    Wrapped up in the real-life protesting was this concept of “outside agitators”. This is rhetoric used to discredit political unrest by saying the actors came from “outside” — either from outside the affected community, or physically foreign agents — and the visible unrest doesn’t represent any legitimate grievances of the people. 
+    Wrapped up in the real-life discourse around protesting was this concept of “outside agitators”. This is rhetoric used to discredit political unrest by saying the actors came from “outside” — either from outside the affected community, or physically foreign agents — and the visible unrest doesn’t represent any legitimate grievances of the people. 
 
     Notably, in real life, there was actual police brutality, and the “outside agitators” narrative was a false one. There were actual atrocities being protested, instead of just people who got angry on the internet. Psycholonials has yet to directly touch on the former, other than just saying it’s the case; ascribing adjectives to it through the lens of Zhen’s narration.
 
@@ -10886,7 +10888,7 @@
     </blockquote>
     Zhen is, of course, a textbook narcissist, so it’s not surprising that Abby’s concerns don’t have any effect on her. Abby is there to fuel her, not to be a friend.
 
-    Joculine here is murdered for revenge, not because she did anything harmful to the organization. Zhen doesn’t even think she’s a saboteur! Then the murder is justified after the fact.
+    Joculine here is murdered for revenge, not because she did anything harmful to the organization. Zhen doesn’t even think she’s a saboteur! She’s not considered a suppressive person, she’s murdered because the leader has a personal grievance with her, and then the murder is justified after the fact.
 
     No, really, look at that. Zhen hates Joculine because she was mean to her online in the past. Maybe she was just a troll, or she called Zhen out on some legitimately bad behaviour. That’s left deliberately unclear. And now she’s hinted that she wants a promotion. That’s what got her killed. Not killing Abby’s parents, not anything else. And that murder is portrayed as a heroic, narratively satisfying act!
 
@@ -14696,7 +14698,7 @@
 
     There are some cases, though, where that distinction can sorta break down. For psycholonials specifically, after going through the story, I’m forced to think that the author wants you to agree with Zhen. That there is an active thesis being made by the writing, and that thesis is that Zhen was right. I feel like that’s self-evident at this point, but I’m going to make the case for it anyway. 
 
-    There’s a ton of evidence for this. Joculine’s whole deal, those spoons… this very ending conversation, for one. Zhen, shouting directly at the camera, “we were right about everything!!!!!!” as part of her happy ending. The story being told is that the movement was right, the violence was right, taking action — and taking action in the way that they did — was right. The problem wasn’t us, because we had hearts of gold and all that juicy self-confidence. No, the problem was… everybody else! The haters! The outside agitators who came in and… defended the world against you, I guess!
+    There’s a ton of evidence for this. Joculine’s whole deal, those spoons… this very ending conversation, for one. Zhen, shouting directly into the camera, “we were right about everything!!!!!!” as part of her happy ending. The story being told (not just by Zhen, but by the narrative itself) is that the movement was right, the violence was right, taking action — and taking action in the way that they did — was right. The problem wasn’t us, because we had hearts of gold and all that juicy self-confidence. No, the problem was… everybody else! The haters! The outside agitators who came in and… defended the world against you, I guess!
 
     <span class="dquo">“</span>All the left wing shit” isn’t wrong on its merits, it’s just that implementing it always ends in disaster firing squad murder, because this kind of social movement seems to naturally cause people to act that way. So it’s not your fault when it happens! The problem was that [i]ego[/i] somehow got wrapped up in a movement that required someone motivated by ego in order to exist and succeed in the first place. Maybe the problem, really, was that other people choose to [i]follow[/i] my ego cult.
 
@@ -15407,7 +15409,7 @@
   - 803
   "i": 802
 - "d": 1642565218699
-  "c": "Chapter \U0001F37E"
+  "c": "Chapter 🍾"
   "b": |-
     [img]https://file.garden/YOVpTKX47HhECOuA/psycholonials/posts/lp-psycholonials-chapter-9-side-c/misc/bonuspanel1.png[/img]
 
@@ -15600,7 +15602,7 @@
 - "d": 1644304836450
   "c": "Bonus Features 9c"
   "b": |-
-    So, believe it or not, a lot of what Zhen says here about cancel culture is actualy right. It’s absolutely possible to pick out a goal (“hurt a person I dislike”, for instance) and then use a phony excuse to go about doing it. Want to hate women in the games industry? Hate women in the games industry, but insist it’s about ethics in journalism somehow. Really mad that trans people exist? Make a forum where you make threads about specific public trans people so you can catalogue every individual stupid thing they do, but insist their identities aren’t the reason. Want to harass someone you don’t like over some personal squabble from when you were fourteen? Put together a callout post and publish a bunch of weird old blackmail material. Sometimes it really is just to get attention. It’s totally possible to use social media to pursue your own goal while using some insincere pretext you can insist is your real motivation. 
+    So, believe it or not, a lot of what Zhen says here about cancel culture is actually right, taken literally. It’s absolutely possible to pick out a goal (“hurt a person I dislike”, for instance) and then use a phony excuse to go about doing it. Want to hate women in the games industry? Hate women in the games industry, but insist it’s about ethics in journalism somehow. Really mad that trans people exist? Make a forum where you make threads about specific public trans people so you can catalogue every individual stupid thing they do, but insist their identities aren’t the reason. Want to harass someone you don’t like over some personal squabble from when you were fourteen? Put together a callout post and publish a bunch of weird old blackmail material. Sometimes it’s vindictive, sometimes it’s out of a misguided sense of puritanianism, sometimes it really is just to get attention. It’s totally possible to use social media to pursue your own goal while using some insincere pretext you can insist is your real motivation. 
 
     The problem, of course, is that doesn’t make the reverse true. Not [i]all[/i] concerns about ethics are fake, not [i]all[/i] concerns about people in a community are attempts at character assassination. This is obvious, of course. The reason those cover stories work at all is because ethics or pedophilia or toxic behaviour or whatever is because those things [i]are[/i] actually real concerns. 
 
@@ -15634,5 +15636,67 @@
     "s": 109
     "a4": true
     "a3": true
-  "u": 1703900854834
+  "u": 1717742042467
   "z": "1304"
+"whole_css": |-
+  footer .mspfalogo {
+      background-image: url(https://file.garden/YOVpTKX47HhECOuA/mspfa_bannerside.png);
+  }
+
+  /*div#content {
+      width: 600px;
+      padding: 0 75px;
+  }*/
+
+  div#content * { max-width: 100%; }
+
+  div#content img.major, 
+  div#content video.major, 
+  div#content iframe.major {
+      margin: 0 -200px;
+      max-width: 900px;
+  }
+
+  iframe {
+      width: 900px;
+      height: 500px;
+  }
+
+  div#content blockquote {
+      margin: 0;
+      padding: 0 1em;
+  }
+
+  img[src$="typing.png"],
+  img[src$="raised-fist.png"],
+  img[src$="sweat-droplets.png"],
+  blockquote span img { height: 1em; }
+
+  div#content blockquote, table.container.alt2 blockquote {
+      border: 4px solid #323232;
+      background: black;
+      color: white;
+      font-family: "Source Code Pro","Courier New",monospace;
+      font-weight: bold;
+      font-size: 16px;
+
+      max-width: 42em;
+      margin: auto;
+      text-align: left;
+  }
+
+  /* Darkening */
+  #main { background-color: #000; }
+  body { 
+      background-color: #101010;
+      color: #EEE;
+  }
+  #slide { background-color: #101010; }
+  .mspfalogo { 
+      border-right: #323232;
+      background-color: #101010;
+  }
+  #info > span > .spoiler.open { background-color: #101010; }
+  a { color: cornflowerblue; }
+  a:visited { color: mediumpurple; }
+  a:active, a:target, a:focus { color: indianred; }
